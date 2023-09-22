@@ -43,6 +43,7 @@ h1 , h2, h3, h4 {
     color: white;
     border-radius: 5px;
     background: linear-gradient(0.25turn, #ffacba, #a8043a);
+    background: linear-gradient(-20deg, #b83561 0%, #ffacba 100%);
 }
 section, aside {
     padding: 40px;
@@ -443,12 +444,13 @@ header .text span::before {
     width: 40%;
 }
 .traitement .text h3 {
+    color: grey;
     padding-bottom: 5px;
     margin: 20px 0;
     border-bottom: solid 1px #e6b885;
 }
 .traitement .text .avant h3 {
-    color: #e6b885;
+    color: #b83561;
 }
 .traitement p {
     color: grey;
@@ -492,9 +494,8 @@ aside ul li {
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    color: white;
     font-size: 16px;
-    color: black;
+    color: grey;
 }
 aside img {
     width: 60px;
