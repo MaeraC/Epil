@@ -91,7 +91,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffefe2;
+    background: #ffc3cd;
 }
 nav img {
     width: 100px;   
@@ -151,7 +151,7 @@ nav ul li a {
 
 
 header {
-    background: #ffefe2;
+    background: #ffc3cd;
     height: 75vh;
     display: flex;
     justify-content: center;
@@ -349,7 +349,7 @@ header .text span::before {
     text-align: center;
     padding: 50px 15%;  
     padding-bottom: 350px;
-    background: #ffefe2;
+    background: #ffc3cd;
 }
 .intro p {
     color: grey;
@@ -480,7 +480,7 @@ header .text span::before {
 
 
 aside {
-    background: #ffefe2;
+    background: #ffc3cd;
     padding: 60px 40px;
 }
 aside ul {
@@ -529,7 +529,7 @@ aside img {
     padding: 10px 15px;
 }
 thead {
-    background: #ffefe2;
+    background: #ffc3cd;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -625,7 +625,7 @@ footer .contact li {
 }
 
 footer {
-    background: #ffefe2;
+    background: #ffc3cd;
     padding: 40px;
 }
 .copy {
