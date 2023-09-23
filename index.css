@@ -258,7 +258,7 @@ header .text span::before {
         width: 90%;
     }
     header .text span::before {
-        width: 450px;
+        width: 400px;
     }
     header .text h1 {
         padding-top: 100px;
@@ -348,12 +348,12 @@ header .text span::before {
 
 .intro {
     text-align: center;
-    padding: 50px 15%;  
-    padding-bottom: 350px;
+    padding: 50px 0;  
     background: #ffe0e5;
 }
 .intro p {
     color: grey;
+    padding: 0 15%;
 }
 @media (max-width: 800px) {
     .intro {
@@ -367,14 +367,12 @@ header .text span::before {
 
 
 .prestations {
-    position: relative;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
 }
 .prestations .content {
-    position: absolute;
-    left: 50%;
-    top: -300px;
     width: 80%;
-    transform: translateX(-50%);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -431,10 +429,6 @@ header .text span::before {
 
 
 
-
-.traitement {
-    margin-top: 60px;
-}
 .traitement .content {
     display: flex;
     justify-content: space-evenly;
@@ -444,10 +438,10 @@ header .text span::before {
     width: 40%;
 }
 .traitement .text h3 {
-    color: grey;
+    font-weight: normal;
     padding-bottom: 5px;
     margin: 20px 0;
-    border-bottom: solid 1px #e6b885;
+    border-bottom: solid 1px #b83561;
 }
 .traitement .text .avant h3 {
     color: #b83561;
